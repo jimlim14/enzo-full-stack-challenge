@@ -1,4 +1,4 @@
-This is a Enzo FullStack Developer position challenge built with [Next.js](https://nextjs.org/) and [Prisma](https://www.prisma.io/)
+This is a Enzo Full-Stack coding challenge built with [Next.js](https://nextjs.org/) and [Prisma](https://www.prisma.io/)
 
 ## Getting Started
 
