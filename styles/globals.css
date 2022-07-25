@@ -1,0 +1,238 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#header {
+  padding: 5px 40px;
+  box-shadow: 1px 1px 5px lightgray;
+}
+
+.customer-wrapper {
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+
+.create-customer {
+  display: flex;
+  height: 350px;
+  margin: 80px;
+  padding: 40px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px lightgray;
+}
+
+.customer-list {
+  margin: 40px;
+  width: 800px;
+}
+
+.input-name, .input-email {
+  width: 200px;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.deactivated {
+  pointer-events: none;
+}
+
+.hide {
+  display: none;
+}
+
+.create-customer-button {
+  margin-top: 50px;
+  width: 200px;
+  height: 50px;
+  border: 2px solid rgb(248, 126, 45);
+  border-radius: 10px;
+  color: rgb(248, 126, 45);
+  font-size: 20px;
+  background-color: white;
+}
+
+.create-customer-button:hover {
+  color: white;
+  background: rgb(248, 126, 45);
+  border: none;
+}
+
+#customer {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px lightgray;
+  margin: 20px;
+  padding: 20px;
+}
+
+.expand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.phone-number-div {
+  display: flex;
+  align-items: center;
+}
+
+.show-button, .hide-button, .edit-phone-button, .cancel-phone-button {
+  height: 30px;
+  border: 2px solid rgb(248, 126, 45);
+  background-color: white;
+  color: rgb(248, 126, 45);
+  border-radius: 5px;
+}
+
+.cancel-phone-button {
+  margin-left: 20px;
+}
+
+.show-button:hover, .hide-button:hover, .edit-phone-button:hover, .cancel-phone-button:hover {
+  color: white;
+  background: rgb(248, 126, 45);
+}
+
+
+.edit-phone-button {
+  margin-left: 20px;
+}
+
+
+.phone-input {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.create-contract-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contract-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.add-detail-button {
+  height: 25px;
+  margin-left: 20px;
+  border: 2px solid rgb(248, 126, 45);
+  border-radius: 5px;
+  color: rgb(248, 126, 45);
+  background-color: white;
+}
+
+.add-detail-button:hover {
+  color: white;
+  background: rgb(248, 126, 45);
+}
+
+.contract-button, .edit-contract-button, .hide-contract-button {
+  margin: 0 10px 30px 0;
+  padding: 3px 10px;
+  border: 2px solid rgb(248, 126, 45);
+  border-radius: 5px;
+  color: rgb(248, 126, 45);
+  background-color: white;
+}
+
+.contract-button:hover, .edit-contract-button:hover, .hide-contract-button:hover {
+  color: white;
+  background-color: rgb(248, 126, 45);
+}
+
+.input-field-wrapper {
+  display: grid;
+  grid-template-columns: 46% 2% 46% 4%;
+  gap: 5px;
+}
+
+.contract-input-field {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  height: 25px;
+}
+
+.submit-contract-button {
+  border-radius: 5px;
+  border: 2px solid rgb(248, 126, 45);
+  color: rgb(248, 126, 45);
+  background-color: white;
+  height: 30px;
+}
+
+.submit-contract-button:hover {
+  color: white;
+  background: rgb(248, 126, 45);
+}
+
+.reduce-detail-button {
+  color: rgb(248, 126, 45);
+  background-color: white;
+  border: 2px solid rgb(248, 126, 45);
+  border-radius: 5px;
+  height: 25px;
+}
+
+.reduce-detail-button:hover {
+  color: white;
+  background-color: rgb(248, 126, 45);
+}
+
+.underline-contract-num {
+  margin-top: 0px;
+  align-self: center;
+}
+
+.container {
+  border: 2px solid rgb(248, 126, 45);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.contract-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit-contract-input {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  height: 20px;
+}
+
+.update-contract-input {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.update-contract-button {
+  border: 2px solid rgb(248, 126, 45);
+  border-radius: 5px;
+  color: rgb(248, 126, 45);
+  background-color: white;
+}
